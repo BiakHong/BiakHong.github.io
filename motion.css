@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+}
+#outer{
+    
+    padding:80px;
+    height: 600px;
+    width: 800px;
+    margin:0px auto;
+    background:rgb(236, 95, 30);
+    position: relative;
+    opacity: 20%;
+}
+
+
+#box1{
+    height:130px;
+    width: 20px;
+  
+    background: orange;
+    top: 485px;
+    
+    position: absolute;
+    z-index: 1;
+    resize: none;
+  }
+
+  #box2{
+    height:130px;
+    width: 20px;
+  
+    background: orange;
+    top: 500px;
+    
+    position: absolute;
+    z-index: 1;
+    resize: none;
+    
+    
+  }
+
+  #pikachu {
+    height:452px;
+    width: 551.82px;
+     
+    background: url("Pikachu.png");
+
+    position: absolute;
+    z-index: 1;
+    resize: none;
+    scale: 0.4;
+    
+  }
+.ST{
+  float: left;
+  font-size: x-large;
+}
+#score{
+  padding-right: 600px; ;
+}
+#start{
+  background-color: rgb(7, 250, 35);
+  border-radius: 10%;
+  width: 400px;
+  height: 200px;
+  left: 35%;
+  top: 300px;
+  position: absolute;
+  z-index: 1;
+  font-size: xx-large;
+}
+
+#jumpBtn{
+  background-color: rgb(11, 194, 173);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  left: 42%;
+  top: 650px;
+  position: absolute;
+  font-size: xx-large;
+}
+
+hr {
+  height:0.5px;
+  border-width:0;
+  background-color:#f4feff;
+}
+#line{
+  height:2px;
+  width: 100%;
+
+  background: rgb(30, 29, 27);
+  top: 615px;
+  
+  position: absolute;
+  z-index: 1;
+  resize: none;
+  left: -0px;
+}
+#report{
+  top: 320px;
+  left: 40%;
+  font-size:small;
+  color: #ff0000;
+  position: absolute;
+  opacity: 0%;
+  z-index: 1;
+}
